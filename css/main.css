@@ -32,10 +32,11 @@ Version: 		1.0.0
 /*------------------------------------------------------------------
 1. General styles and resets
 -------------------------------------------------------------------*/
-@import url('https://fonts.googleapis.com/css?family=Montserrat:200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
+/* @import url('https://fonts.googleapis.com/css?family=Montserrat:200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i'); */
 @import url('https://fonts.googleapis.com/css?family=Josefin+Sans:100,100i,300,300i,400,400i,600,600i,700,700i');
 @import 'https://fonts.googleapis.com/css?family=Just+Another+Hand';
-@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700');
+/* @import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700'); */
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.8/dist/web/static/pretendard.css");
 
 .content-links,.filter-nav,.social-network,.content-list,.pricing-box-v1 .plan-features ul,.icon-lists ul,.nav-wrap ul.side-nav,.nav-wrap .header-links ul,.white-overlay .nav-wrap ul.side-nav,.white-overlay .nav-wrap .header-links ul,.tag-block ul,.blog-lists .blog-list-items,.instagram-widget ul,.footer-nav ul {
 	list-style: none;
@@ -858,7 +859,7 @@ a:hover,a:focus {
 
 body {
 	font-weight: 400;
-	font-family: 'Poppins', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-family: 'Pretendard', Arial, sans-serif;
 	letter-spacing: .0625rem;
 	color: #55565b;
 	font-size: .75rem;
@@ -867,7 +868,8 @@ body {
 
 h1,h2,h3,h4,h5,h6 {
 	margin: 0 0 .9375rem;
-	font-family: 'Josefin Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	/* font-family: 'Josefin Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif; */
+	font-family: 'Pretendard', Arial, sans-serif;
 	color: #55565b;
 	line-height: 1.1;
 }
@@ -3441,6 +3443,11 @@ em.state-invalid {
 	display: inline-block;
 }
 
+/* for contact */
+
+#nav-contact li a {
+	color: #55565b!important;
+}
 .main-header .navbar .navbar-nav li a:hover,.main-header .navbar .navbar-nav li a:focus {
 	background: none;
 	color: #c1c5cd;
@@ -3662,7 +3669,7 @@ em.state-invalid {
 
 .main-header p {
 	font-weight: 500;
-	font-family: 'Poppins', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-family: 'Pretendard', Arial, sans-serif;
 	font-size: .75rem;
 	line-height: 2.1;
 	letter-spacing: .0625rem;
@@ -3703,7 +3710,15 @@ em.state-invalid {
 	padding-top: 1.1rem;
 	padding-bottom: 1.25rem;
 }
+.navbar .navbar-brand img{
+	width: 40px;
+	height: 40px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
 
+
+}
 .main-header.sticky-nav .navbar .navbar-nav li a {
 	padding-top: 1.25rem;
 	padding-bottom: 1.25rem;
@@ -3842,14 +3857,14 @@ em.state-invalid {
 	padding: .3rem 0 0;
 	font-size: .9rem;
 	color: #7d7d7d;
-	font-family: 'Poppins', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-family: 'Pretendard', Arial, sans-serif;
 	font-weight: 700;
 }
 
 .mega-menus .mega-menu-multiple .cart-list .dropdown-menu-container > .dropdown-menu h4 {
 	color: #7d7d7d;
 	font-size: .75rem;
-	font-family: 'Poppins', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-family: 'Pretendard', Arial, sans-serif;
 	text-transform: capitalize;
 	font-weight: 700;
 	line-height: .5;
@@ -3859,7 +3874,7 @@ em.state-invalid {
 .mega-menus .mega-menu-multiple .cart-list .dropdown-menu-container > .dropdown-menu h6 {
 	color: #7d7d7d;
 	font-size: .75rem;
-	font-family: 'Poppins', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-family: 'Pretendard', Arial, sans-serif;
 	text-transform: capitalize;
 	font-weight: 500;
 	line-height: 1;
@@ -4027,7 +4042,7 @@ em.state-invalid {
 	max-width: 51.43rem;
 	font-size: 1.143rem;
 	color: #fff;
-	font-family: 'Poppins', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-family: 'Pretendard', Arial, sans-serif;
 	font-weight: 400;
 }
 
@@ -4052,7 +4067,7 @@ em.state-invalid {
 .visual-title {
 	font-size: 1.875rem;
 	line-height: 1.2;
-	font-family: 'Josefin Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-family: 'Pretendard', Arial, sans-serif;
 	color: #fff;
 	display: block;
 	font-weight: 300;
@@ -4095,7 +4110,7 @@ em.state-invalid {
 
 .visual-text-v2 .visual-title {
 	font-weight: 700;
-	font-family: 'Poppins', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-family: 'Pretendard', Arial, sans-serif;
 }
 
 .visual-text-v3 {
@@ -4198,9 +4213,9 @@ em.state-invalid {
 	color: #fff;
 	min-width: 10rem;
 	outline: none;
-	font-weight: 500;
+	font-weight: 700;
 	cursor: pointer;
-	font-family: 'Poppins', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-family: 'Pretendard', Arial, sans-serif;
 	border-radius: 0;
 	-webkit-transition: all linear .3s;
 	-o-transition: all linear .3s;
@@ -4384,7 +4399,7 @@ em.state-invalid {
 .btn.btn-small-font {
 	font-size: .875rem;
 	font-weight: 700;
-	font-family: 'Poppins', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-family: 'Pretendard', Arial, sans-serif;
 }
 
 .btn.has-shadow {
@@ -4568,7 +4583,7 @@ em.state-invalid {
 .btn-alternate.btn.btn-small-font {
 	font-size: .875rem;
 	font-weight: 700;
-	font-family: 'Poppins', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-family: 'Pretendard', Arial, sans-serif;
 }
 
 .btn-alternate.btn.has-shadow {
@@ -4765,14 +4780,18 @@ em.state-invalid {
 }
 
 .content-title {
-	font-size: .875rem;
+	font-size: 1rem;
 	line-height: 1.2;
 	display: block;
 	text-transform: uppercase;
-	font-weight: 400;
+	font-weight: 700;
 	margin-bottom: .9375rem;
-	font-family: 'Poppins', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-family: 'Pretendard', Arial, sans-serif;
 	letter-spacing: .1429rem;
+}
+.content-date{
+	font-size: .575rem;
+	margin-top: 2rem;
 }
 
 .content-title a {
@@ -4783,7 +4802,7 @@ em.state-invalid {
 	display: block;
 	margin-bottom: 2rem;
 	color: #575757;
-	font-family: 'Poppins', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-family: 'Pretendard', Arial, sans-serif;
 }
 
 .col-wrap {
@@ -5027,7 +5046,7 @@ main.no-banner {
 	display: block;
 	margin-bottom: 1.5rem;
 	font-size: .875rem;
-	font-family: 'Poppins', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-family: 'Pretendard', Arial, sans-serif;
 	font-weight: 600;
 	color: #55565b;
 }
@@ -5064,7 +5083,7 @@ main.no-banner {
 }
 
 .element-heading {
-	font-family: 'Poppins', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-family: 'Pretendard', Arial, sans-serif;
 	font-weight: 300;
 }
 
@@ -5168,7 +5187,7 @@ pre {
 	font-size: .875rem;
 	line-height: 1.2;
 	font-weight: 500;
-	font-family: 'Poppins', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-family: 'Pretendard', Arial, sans-serif;
 	color: #55565b;
 }
 
@@ -5339,7 +5358,7 @@ pre {
 	text-transform: uppercase;
 	color: #212121;
 	font-size: .875rem;
-	font-family: 'Poppins', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-family: 'Pretendard', Arial, sans-serif;
 }
 
 .ico-box .link-holder .link-more:hover {
@@ -5591,7 +5610,7 @@ pre {
 }
 
 .about-banner {
-	background-image: url('../img/visual-small-01.jpg');
+	background-image: url('../img/add/3.jpg');
 }
 
 .portfolio-banner {
@@ -5599,7 +5618,7 @@ pre {
 }
 
 .portfolio-banner-v1 {
-	background-image: url('../img/visual-small-04.jpg');
+	background-image: url('../img/add/1.jpg');
 }
 
 .portfolio-banner-v2 {
@@ -5611,7 +5630,7 @@ pre {
 }
 
 .count-block {
-	background-image: url('../img/visual-small-11.jpg');
+	background-image: url('../img/add/home_2.png');
 }
 
 .quotation-block-v3 {
@@ -5678,7 +5697,7 @@ pre {
 	border: none;
 	outline: none;
 	cursor: pointer;
-	font-family: 'Poppins', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-family: 'Pretendard', Arial, sans-serif;
 	font-weight: 400;
 	color: #55565b;
 }
@@ -5790,6 +5809,10 @@ pre {
 }
 
 /******* portfolio styles *******/
+/* button top */
+#portfolioGrid{
+	margin-bottom: 40px;
+}
 
 .picture-item {
 	margin-top: .625rem;
@@ -6490,6 +6513,10 @@ pre {
 	-webkit-box-shadow: none;
 	box-shadow: none;
 }
+.form-control::placeholder{
+	opacity: 0.5;
+}
+
 
 .form-control:focus {
 	border-color: #c9cacd;
@@ -6786,11 +6813,11 @@ input:focus:-ms-input-placeholder,textarea:focus:-ms-input-placeholder {
 	color: #3b5998;
 }
 
-.social-network a:hover .icon-twitter {
-	color: #1da1f2;
+.social-network a:hover .icon-instagram {
+	color: #C13584;
 }
 
-.social-network a:hover .icon-google-plus {
+.social-network a:hover .icon-youtube-play {
 	color: #dd4b39;
 }
 
@@ -7045,7 +7072,7 @@ a.full-width-icon:hover .social-text {
 
 .caption-hover-full .content-title {
 	text-transform: capitalize;
-	font-family: 'Josefin Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-family: 'Pretendard', Arial, sans-serif;
 	font-weight: 700;
 	color: #6e6f75;
 	position: relative;
@@ -7145,6 +7172,27 @@ a.full-width-icon:hover .social-text {
 /******* content list styles *******/
 
 /******* contact form styles *******/
+.contact-banner{
+	background-image: url(../img/add/home_2.png);
+}
+/* 배너교체 */
+
+/* 인덱스의 콘택트는 가로정렬 */
+
+#index-contact{
+	display: flex;
+	flex-wrap: wrap;
+	margin-bottom: 100px;
+	width: 100%;
+	max-width: 100%;
+	margin-left: 0;
+}
+#index-contact .info-slot{
+	width: 300px;
+	margin : 0 auto;
+	padding: 15px;
+	/* background-color: #0480be; */
+}
 
 .waituk_contact-form {
 	margin-bottom: 1.25rem;
@@ -7229,7 +7277,7 @@ a.full-width-icon:hover .social-text {
 
 .contact-list .label-text {
 	display: inline-block;
-	width: 6.143rem;
+	/* width: 6.143rem; */
 	text-transform: uppercase;
 }
 
@@ -7632,7 +7680,7 @@ a.full-width-icon:hover .social-text {
 }
 
 .accordion-container .card .card-header h5 {
-	font-family: 'Poppins', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-family: 'Pretendard', Arial, sans-serif;
 }
 
 .accordion-container .card .card-header h5 a {
@@ -7727,7 +7775,7 @@ a.full-width-icon:hover .social-text {
 }
 
 .accordion-container.accordion-secondary .card .card-header h5 {
-	font-family: 'Poppins', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-family: 'Pretendard', Arial, sans-serif;
 }
 
 .accordion-container.accordion-secondary .card .card-header h5 a {
@@ -7820,7 +7868,7 @@ a.full-width-icon:hover .social-text {
 
 .pricing-block h4 {
 	color: #55565b;
-	font-family: 'Poppins', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-family: 'Pretendard', Arial, sans-serif;
 	font-weight: 400;
 	text-transform: capitalize;
 }
@@ -8415,7 +8463,7 @@ a.full-width-icon:hover .social-text {
 /******* badge styles *******/
 
 .label-block .custom-badge {
-	font-family: 'Poppins', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-family: 'Pretendard', Arial, sans-serif;
 }
 
 .label-block .custom-badge.badge {
@@ -9472,7 +9520,7 @@ a.full-width-icon:hover .social-text {
 	color: #575757;
 	font-size: 1.875rem;
 	line-height: 1.2;
-	font-family: 'Poppins', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-family: 'Pretendard', Arial, sans-serif;
 	font-weight: 900;
 	text-transform: uppercase;
 	margin-bottom: 1.875rem;
@@ -9718,7 +9766,7 @@ a.full-width-icon:hover .social-text {
 	font-size: .875rem;
 	line-height: 1.2;
 	font-weight: 500;
-	font-family: 'Poppins', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-family: 'Pretendard', Arial, sans-serif;
 	color: #55565b;
 }
 
@@ -9783,7 +9831,7 @@ a.full-width-icon:hover .social-text {
 	margin: 0;
 	font-size: .875rem;
 	font-weight: 500;
-	font-family: 'Poppins', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-family: 'Pretendard', Arial, sans-serif;
 	color: #212121;
 }
 
@@ -9837,7 +9885,7 @@ a.full-width-icon:hover .social-text {
 	margin: 0;
 	font-size: .875rem;
 	font-weight: 500;
-	font-family: 'Poppins', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-family: 'Pretendard', Arial, sans-serif;
 	color: #55565b;
 }
 
@@ -9962,7 +10010,9 @@ a.full-width-icon:hover .social-text {
 .footer .footer-logo {
 	margin-bottom: 1.875rem;
 }
-
+.footer .footer-logo img{
+	width: 40px;
+}
 .footer .divider-border {
 	background: #242424;
 	margin: 1.875rem auto;
@@ -11346,6 +11396,9 @@ a.full-width-icon:hover .social-text {
 	.main-header.header-white.transparent .navbar .navbar-nav > li > a {
 		color: #fff;
 	}
+	.main-header.header-white.transparent #nav-contact .navbar-nav > li > a {
+		color: blue;
+	}
 
 	.main-header.header-white.transparent .navbar-pos-search a.x-search-trigger,.main-header.header-white.transparent .navbar-pos-search .navbar-link {
 		color: #fff;
@@ -12394,7 +12447,7 @@ a.full-width-icon:hover .social-text {
 
 	.main-header .navbar-toggler {
 		padding: 0;
-		top: 13px;
+		top: 20px;
 		margin-top: 0;
 		outline: none;
 		cursor: pointer;

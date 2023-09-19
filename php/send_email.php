@@ -1,8 +1,13 @@
+<!-- /fuseSolve/php/send_email.php -->
+
 <?php
+
+header("Access-Control-Allow-Origin: *");
+
 if(isset($_REQUEST['action']) && $_REQUEST['action'] == 'sendEmail')
 {
-	$to = 'support@mail.com';
-	$subject = 'Roxine Contact Form';
+	$to = 'admin@flaresolution.com';
+	$subject = 'AAA';
 	$send_arr = array();	
 	
 	$headers = "MIME-Version: 1.0" . "\r\n";
